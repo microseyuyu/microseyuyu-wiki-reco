@@ -1,0 +1,1 @@
+import{_ as s,r as c,o as t,c as o,e as a,b as r}from"./app-488627b7.js";const n={},i=r("p",null,"This is api.",-1);function _(l,m){const e=c("MusicPlayer");return t(),o("div",null,[i,a(e,{musicId:"4263218",musicSrc:"Eifersucht.mp3",style:{margin:"0 auto"}})])}const p=s(n,[["render",_],["__file","api.html.vue"]]);export{p as default};

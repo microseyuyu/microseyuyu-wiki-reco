@@ -1,0 +1,1 @@
+import{_ as c,r,o as t,c as o,e as s}from"./app-488627b7.js";const a={};function n(l,_){const e=r("MusicPlayer");return t(),o("div",null,[s(e,{musicId:"4263218",musicSrc:"Eifersucht.mp3",style:{margin:"0 auto"}})])}const i=c(a,[["render",n],["__file","player.html.vue"]]);export{i as default};
