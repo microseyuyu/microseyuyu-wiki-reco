@@ -1,1 +1,0 @@
-import{_ as c,r as t,o as s,c as o,e as r,b as a}from"./app-488627b7.js";const n={},_=a("p",null,"first page in category1",-1);function l(i,m){const e=t("MusicPlayer");return s(),o("div",null,[_,r(e,{musicId:"4263218",musicSrc:"Eifersucht.mp3",style:{margin:"0 auto"}})])}const f=c(n,[["render",l],["__file","121501.html.vue"]]);export{f as default};

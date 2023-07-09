@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-58b36630","path":"/docs/Inbox/HT/G1/7.html","title":"第七课 隋唐制度的变化与创新 教学设计","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1688929520000,"updatedTime":1688929520000,"contributors":[{"name":"microseyuyu","email":"microseyuyu@outlook.jp","commits":1}]},"filePathRelative":"docs/Inbox/HT/G1/7.md"}');export{e as data};

@@ -1,1 +1,0 @@
-import{_ as s,r as c,o as t,c as n,e as o,b as r}from"./app-488627b7.js";const a={},l=r("p",null,"This is plugin.",-1);function i(_,u){const e=c("MusicPlayer");return t(),n("div",null,[l,o(e,{musicId:"4263218",musicSrc:"Eifersucht.mp3",style:{margin:"0 auto"}})])}const p=s(a,[["render",i],["__file","plugin.html.vue"]]);export{p as default};
