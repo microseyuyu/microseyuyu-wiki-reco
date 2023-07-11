@@ -11,11 +11,7 @@
     "build": "vuepress build ."
   },
   "dependencies": {
-    "bootstrap": "^5.3.0",
     "vuepress": "2.0.0-beta.63",
-    "vuepress-theme-reco": "^1.6.17"
-  },
-  "devDependencies": {
-    "vuepress-plugin-awesome-musicplayer": "^1.2.1"
+    "vuepress-theme-reco": "2.0.0-beta.66"
   }
 }

@@ -8,37 +8,14 @@ modules:
 bannerBrand:
   bgImage: '/bg.svg'
   title: Herzlich willkommen
-  description: This is hayashi yuiyuu's personal wiki
+  description: Welcome to yuyu's personal wiki
   tagline: 
+  buttons:
+    - { text: About, link: '/docs/About/1'}
+  socialLinks:
+    - { icon: 'LogoGithub', link: 'https://github.com/microseyuyu/microseyuyu-wiki-source' }
 blog:
   socialLinks:
     - { icon: 'LogoGithub', link: 'https://github.com/microseyuyu' }
 isShowTitleInHome: true
-actionText: About
-actionLink: /views/other/about
 ---
-
-## 快速开始
-
-**npx**
-
-```bash
-# 初始化，并选择 2.x
-npx @vuepress-reco/theme-cli init
-```
-
-**npm**
-
-```bash
-# 初始化，并选择 2.x
-npm install @vuepress-reco/theme-cli@1.0.7 -g
-theme-cli init
-```
-
-**yarn**
-
-```bash
-# 初始化，并选择 2.x
-yarn global add @vuepress-reco/theme-cli@1.0.7
-theme-cli init
-```
