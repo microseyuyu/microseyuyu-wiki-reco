@@ -11,6 +11,10 @@ export default defineUserConfig({
     docsBranch: "main",
     docsDir: "example",
     lastUpdatedText: "2023/07/11",
+    plugins:[
+      'backToTopPlugin',
+      'activeHeaderLinksPlugin',
+    ],
     // series 为原 sidebar
     series: {
       "/docs/Inbox/HT/G1/":[
