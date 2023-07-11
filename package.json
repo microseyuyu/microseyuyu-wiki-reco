@@ -1,0 +1,21 @@
+{
+  "name": "vuepress-theme-reco-demo",
+  "version": "2.0.0",
+  "description": "Demo for vuepress-theme-reco@2.x.",
+  "repository": "git@github.com:recoluan/vuepress-theme-reco-demo.git",
+  "author": "reco_luan <recoluan@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev .",
+    "start": "vuepress dev .",
+    "build": "vuepress build ."
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "vuepress": "2.0.0-beta.63",
+    "vuepress-theme-reco": "^1.6.17"
+  },
+  "devDependencies": {
+    "vuepress-plugin-awesome-musicplayer": "^1.2.1"
+  }
+}
