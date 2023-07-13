@@ -11,12 +11,22 @@ export default defineUserConfig({
     docsBranch: "main",
     docsDir: "example",
     lastUpdatedText: "2023/07/11",
+    plugins:[
+      'backToTopPlugin',
+      'activeHeaderLinksPlugin',
+    ],
     // series 为原 sidebar
     series: {
       "/docs/Inbox/HT/G1/":[
         {
           text:"历史教案",
           children:["5","6","7","8"],
+        },
+      ],
+      "/docs/wiki's_project/": [
+        {
+          text:"About this project",
+          children:["1","2","3"],
         },
       ],
       "/docs/theme-reco/": [
@@ -33,7 +43,9 @@ export default defineUserConfig({
     navbar: [
       { text: "Home", link: "/" },
       { text: "Categories", link: "/categories/Japanese/1/" },
+      { text: "wiki's project", link:"/docs/wiki's_project/1"},
     ],
+
    
     // commentConfig: {
     //   type: 'valie',
