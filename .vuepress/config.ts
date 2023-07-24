@@ -26,7 +26,7 @@ export default defineUserConfig({
       "/docs/wiki's_project/": [
         {
           text:"About this project",
-          children:["1","2","3"],
+          children:["MBP","1","2","3","project_charte","mba","Requirements_Document","Requirements_Management_Plan","Requirements_Traceability_Matrix","Project_Scope_Statement"],
         },
       ],
       "/docs/theme-reco/": [
