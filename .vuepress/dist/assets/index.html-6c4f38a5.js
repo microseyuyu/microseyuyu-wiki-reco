@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,a as e,b as n}from"./app-f028a8dc.js";const o={},r=e("h1",{id:"tp-readme",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#tp-readme","aria-hidden":"true"},"#"),n(" TP-README")],-1),s=e("p",null,"这里是试卷",-1),d=[r,s];function _(i,l){return a(),c("div",null,d)}const f=t(o,[["render",_],["__file","index.html.vue"]]);export{f as default};

@@ -7,7 +7,7 @@ export default defineUserConfig({
     style: "@vuepress-reco/style-default",
     author: "microseyuyu",
     authorAvatar: "/shinoaki.JPG",
-    docsRepo: "https://github.com/microseyuyu/microseyuyu-wiki-source",
+    docsRepo: "https://github.com/microseyuyu/microseyuyu-wiki",
     docsBranch: "main",
     docsDir: "example",
     lastUpdatedText: "2023/07/11",
@@ -17,33 +17,28 @@ export default defineUserConfig({
     ],
     // series 为原 sidebar
     series: {
-      "/docs/Inbox/HT/G1/":[
+      "/docs/MBP/": [
         {
-          text:"历史教案",
-          children:["5","6","7","8"],
+          text:"Management by Projects",
+          children:["MBP","1","2","3",
+          "project_charte","mba","Requirements_Document",
+          "Requirements_Management_Plan",
+          "Requirements_Traceability_Matrix",
+          "Project_Scope_Statement"],
         },
       ],
-      "/docs/wiki's_project/": [
+      "/docs/TP/":[
         {
-          text:"About this project",
-          children:["1","2","3"],
-        },
-      ],
-      "/docs/theme-reco/": [
-        {
-          text: "module one",
-          children: ["home", "theme"],
-        },
-        {
-          text: "module two",
-          children: ["api", "plugin"],
+          text: "Test Paper",
+          children: ["README","T-Search","TP00001"],
+          collapsible: true,
         },
       ],
     },
     navbar: [
       { text: "Home", link: "/" },
-      { text: "Categories", link: "/categories/Japanese/1/" },
-      { text: "wiki's project", link:"/docs/wiki's_project/1"},
+      { text: "Categories", link: "/categories/" },
+      { text: "Management by Projects", link:"/docs/MBP/"},
     ],
 
    
@@ -63,3 +58,4 @@ export default defineUserConfig({
   }),
   // debug: true,
 });
+

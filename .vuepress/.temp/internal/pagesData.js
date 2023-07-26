@@ -21,14 +21,34 @@ export const pagesData = {
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
   // path: /blogs/other/guide.html
   "v-6bb1ef33": () => import(/* webpackChunkName: "v-6bb1ef33" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/blogs/other/guide.html.js").then(({ data }) => data),
-  // path: /docs/about/1.html
-  "v-bb025cf6": () => import(/* webpackChunkName: "v-bb025cf6" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/about/1.html.js").then(({ data }) => data),
-  // path: /docs/wiki's_project/1.html
-  "v-6328d5a6": () => import(/* webpackChunkName: "v-6328d5a6" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/wiki's_project/1.html.js").then(({ data }) => data),
-  // path: /docs/wiki's_project/2.html
-  "v-64ddae45": () => import(/* webpackChunkName: "v-64ddae45" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/wiki's_project/2.html.js").then(({ data }) => data),
-  // path: /docs/wiki's_project/3.html
-  "v-669286e4": () => import(/* webpackChunkName: "v-669286e4" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/wiki's_project/3.html.js").then(({ data }) => data),
+  // path: /docs/LN/LN1.html
+  "v-4ec7e05c": () => import(/* webpackChunkName: "v-4ec7e05c" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/LN/LN1.html.js").then(({ data }) => data),
+  // path: /docs/MBP/1.html
+  "v-1f3e6ab7": () => import(/* webpackChunkName: "v-1f3e6ab7" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/MBP/1.html.js").then(({ data }) => data),
+  // path: /docs/MBP/2.html
+  "v-20f34356": () => import(/* webpackChunkName: "v-20f34356" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/MBP/2.html.js").then(({ data }) => data),
+  // path: /docs/MBP/3.html
+  "v-22a81bf5": () => import(/* webpackChunkName: "v-22a81bf5" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/MBP/3.html.js").then(({ data }) => data),
+  // path: /docs/MBP/MBP.html
+  "v-c9c967e6": () => import(/* webpackChunkName: "v-c9c967e6" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/MBP/MBP.html.js").then(({ data }) => data),
+  // path: /docs/MBP/Project_Scope_Statement.html
+  "v-2bcac60a": () => import(/* webpackChunkName: "v-2bcac60a" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/MBP/Project_Scope_Statement.html.js").then(({ data }) => data),
+  // path: /docs/MBP/Requirements_Document.html
+  "v-fc9ec5c4": () => import(/* webpackChunkName: "v-fc9ec5c4" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/MBP/Requirements_Document.html.js").then(({ data }) => data),
+  // path: /docs/MBP/Requirements_Management_Plan.html
+  "v-3da5ddb4": () => import(/* webpackChunkName: "v-3da5ddb4" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/MBP/Requirements_Management_Plan.html.js").then(({ data }) => data),
+  // path: /docs/MBP/Requirements_Traceability_Matrix.html
+  "v-07b3581e": () => import(/* webpackChunkName: "v-07b3581e" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/MBP/Requirements_Traceability_Matrix.html.js").then(({ data }) => data),
+  // path: /docs/MBP/mba.html
+  "v-510ab29c": () => import(/* webpackChunkName: "v-510ab29c" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/MBP/mba.html.js").then(({ data }) => data),
+  // path: /docs/MBP/project_charte.html
+  "v-9ca3d486": () => import(/* webpackChunkName: "v-9ca3d486" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/MBP/project_charte.html.js").then(({ data }) => data),
+  // path: /docs/TP/
+  "v-09cd1958": () => import(/* webpackChunkName: "v-09cd1958" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/TP/index.html.js").then(({ data }) => data),
+  // path: /docs/TP/T-Search.html
+  "v-3606d5c0": () => import(/* webpackChunkName: "v-3606d5c0" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/TP/T-Search.html.js").then(({ data }) => data),
+  // path: /docs/TP/TP00001.html
+  "v-29df8fc8": () => import(/* webpackChunkName: "v-29df8fc8" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/TP/TP00001.html.js").then(({ data }) => data),
   // path: /blogs/Inbox/HT/5.html
   "v-0e5dad67": () => import(/* webpackChunkName: "v-0e5dad67" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/blogs/Inbox/HT/5.html.js").then(({ data }) => data),
   // path: /blogs/Inbox/HT/6.html
@@ -37,18 +57,8 @@ export const pagesData = {
   "v-11c75ea5": () => import(/* webpackChunkName: "v-11c75ea5" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/blogs/Inbox/HT/7.html.js").then(({ data }) => data),
   // path: /blogs/Inbox/HT/8.html
   "v-137c3744": () => import(/* webpackChunkName: "v-137c3744" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/blogs/Inbox/HT/8.html.js").then(({ data }) => data),
-  // path: /blogs/Literature%20notes/JP/1.html
+  // path: /blogs/Literature notes/JP/1.html
   "v-4058ef08": () => import(/* webpackChunkName: "v-4058ef08" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/blogs/Literature notes/JP/1.html.js").then(({ data }) => data),
-  // path: /docs/JP/202307/1.html
-  "v-7991f123": () => import(/* webpackChunkName: "v-7991f123" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/JP/202307/1.html.js").then(({ data }) => data),
-  // path: /docs/Inbox/HT/G1/5.html
-  "v-5f86c8ac": () => import(/* webpackChunkName: "v-5f86c8ac" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/Inbox/HT/G1/5.html.js").then(({ data }) => data),
-  // path: /docs/Inbox/HT/G1/6.html
-  "v-5c1d176e": () => import(/* webpackChunkName: "v-5c1d176e" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/Inbox/HT/G1/6.html.js").then(({ data }) => data),
-  // path: /docs/Inbox/HT/G1/7.html
-  "v-58b36630": () => import(/* webpackChunkName: "v-58b36630" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/Inbox/HT/G1/7.html.js").then(({ data }) => data),
-  // path: /docs/Inbox/HT/G1/8.html
-  "v-5549b4f2": () => import(/* webpackChunkName: "v-5549b4f2" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/Inbox/HT/G1/8.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
 }
