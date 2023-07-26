@@ -1,1 +1,0 @@
-const t=JSON.parse(`{"key":"v-44061dcb","path":"/docs/wiki's_project/mba.html","title":"项目管理计划","lang":"en-US","frontmatter":{},"headers":[],"git":{},"filePathRelative":"docs/wiki's_project/mba.md"}`);export{t as data};
