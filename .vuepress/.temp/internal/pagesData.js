@@ -23,6 +23,10 @@ export const pagesData = {
   "v-6bb1ef33": () => import(/* webpackChunkName: "v-6bb1ef33" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/blogs/other/guide.html.js").then(({ data }) => data),
   // path: /docs/LN/LN1.html
   "v-4ec7e05c": () => import(/* webpackChunkName: "v-4ec7e05c" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/LN/LN1.html.js").then(({ data }) => data),
+  // path: /docs/LN/LN2.html
+  "v-507cb8fb": () => import(/* webpackChunkName: "v-507cb8fb" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/LN/LN2.html.js").then(({ data }) => data),
+  // path: /docs/TR/TR1.html
+  "v-4c94e248": () => import(/* webpackChunkName: "v-4c94e248" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/TR/TR1.html.js").then(({ data }) => data),
   // path: /docs/MBP/1.html
   "v-1f3e6ab7": () => import(/* webpackChunkName: "v-1f3e6ab7" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/MBP/1.html.js").then(({ data }) => data),
   // path: /docs/MBP/2.html

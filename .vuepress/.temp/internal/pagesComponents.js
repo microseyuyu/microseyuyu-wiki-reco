@@ -25,6 +25,10 @@ export const pagesComponents = {
   "v-6bb1ef33": defineAsyncComponent(() => import(/* webpackChunkName: "v-6bb1ef33" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/blogs/other/guide.html.vue")),
   // path: /docs/LN/LN1.html
   "v-4ec7e05c": defineAsyncComponent(() => import(/* webpackChunkName: "v-4ec7e05c" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/LN/LN1.html.vue")),
+  // path: /docs/LN/LN2.html
+  "v-507cb8fb": defineAsyncComponent(() => import(/* webpackChunkName: "v-507cb8fb" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/LN/LN2.html.vue")),
+  // path: /docs/TR/TR1.html
+  "v-4c94e248": defineAsyncComponent(() => import(/* webpackChunkName: "v-4c94e248" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/TR/TR1.html.vue")),
   // path: /docs/MBP/1.html
   "v-1f3e6ab7": defineAsyncComponent(() => import(/* webpackChunkName: "v-1f3e6ab7" */"/Users/microseyuyu/microseyuyu-wiki-local/.vuepress/.temp/pages/docs/MBP/1.html.vue")),
   // path: /docs/MBP/2.html

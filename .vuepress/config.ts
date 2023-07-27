@@ -14,6 +14,8 @@ export default defineUserConfig({
     plugins:[
       'backToTopPlugin',
       'activeHeaderLinksPlugin',
+      'vuepress-plugin-mermaidjs',
+      'vuepress-plugin-mermaidjs@2.0.0-beta.2',
     ],
     // series 为原 sidebar
     series: {
@@ -34,7 +36,24 @@ export default defineUserConfig({
           collapsible: true,
         },
       ],
+      "/docs/TR/": [
+        {
+          text: "Test Report",
+          children: ["TR1"],
+          collapsible: true,
+        },
+  
+      ],
+      "/docs/LN/": [
+        {
+          text: " Literature notes",
+          children: ["LN1","LN2"],
+          collapsible: true,
+        },
+  
+      ],
     },
+
     navbar: [
       { text: "Home", link: "/" },
       { text: "Categories", link: "/categories/" },
@@ -58,4 +77,3 @@ export default defineUserConfig({
   }),
   // debug: true,
 });
-

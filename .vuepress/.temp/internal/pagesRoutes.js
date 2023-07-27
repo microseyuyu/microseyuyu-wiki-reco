@@ -11,6 +11,8 @@ export const pagesRoutes = [
   ["v-8daa1a0e","/",{"title":""},["/index.html","/README.md"]],
   ["v-6bb1ef33","/blogs/other/guide.html",{"title":"vuepress-theme-reco"},["/blogs/other/guide","/blogs/other/guide.md"]],
   ["v-4ec7e05c","/docs/LN/LN1.html",{"title":"first note of genki"},["/docs/LN/LN1","/docs/LN/LN1.md"]],
+  ["v-507cb8fb","/docs/LN/LN2.html",{"title":"第七课 隋唐制度变化与创新"},["/docs/LN/LN2","/docs/LN/LN2.md"]],
+  ["v-4c94e248","/docs/TR/TR1.html",{"title":"TR#1"},["/docs/TR/TR1","/docs/TR/TR1.md"]],
   ["v-1f3e6ab7","/docs/MBP/1.html",{"title":"项目管理"},["/docs/MBP/1","/docs/MBP/1.md"]],
   ["v-20f34356","/docs/MBP/2.html",{"title":"范围报告书"},["/docs/MBP/2","/docs/MBP/2.md"]],
   ["v-22a81bf5","/docs/MBP/3.html",{"title":"WBS 工作分解结构表"},["/docs/MBP/3","/docs/MBP/3.md"]],
