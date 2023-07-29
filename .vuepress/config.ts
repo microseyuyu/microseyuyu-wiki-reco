@@ -10,7 +10,7 @@ export default defineUserConfig({
     docsRepo: "https://github.com/microseyuyu/microseyuyu-wiki",
     docsBranch: "main",
     docsDir: "example",
-    lastUpdatedText: "2023/07/11",
+    lastUpdatedText: "Last Updated",
     plugins:[
       'backToTopPlugin',
       'activeHeaderLinksPlugin',
