@@ -10,12 +10,18 @@ export default defineUserConfig({
     docsRepo: "https://github.com/microseyuyu/microseyuyu-wiki",
     docsBranch: "main",
     docsDir: "example",
-    lastUpdatedText: "2023/07/11",
+    lastUpdatedText: "last update",
+     // 自动设置分类
+     autoSetBlogCategories: true,
+     // 自动将分类和标签添加至头部导航条
+     autoAddCategoryToNavbar: {
+       location: 1, // 默认 0
+       categoryText: '分类', // 默认 categories
+       tagText: '标签' // 默认 tags
+     },
     plugins:[
       'backToTopPlugin',
       'activeHeaderLinksPlugin',
-      'vuepress-plugin-mermaidjs',
-      'vuepress-plugin-mermaidjs@2.0.0-beta.2',
     ],
     // series 为原 sidebar
     series: {
@@ -42,7 +48,34 @@ export default defineUserConfig({
           children: ["TR1"],
           collapsible: true,
         },
-  
+      ],
+      "/docs/FL/": [
+        {
+          text: "Fleet notes",
+          children:[""],
+          collapsible: true,
+        },
+      ],
+      "/docs/PN/":[
+        {
+          text: "Permanent notes",
+          children:[""],
+          collapsible: true,
+        }
+      ],
+      "/docs/GKQ":[
+        {
+          text: "Gaokao question",
+          children: [""],
+          collapsible: true,
+        }
+      ],
+      "/docs/GKR":[
+        {
+          text:"Gaokao report",
+          children: [""],
+          collapsible: true,
+        }
       ],
       "/docs/LN/": [
         {
@@ -56,7 +89,6 @@ export default defineUserConfig({
 
     navbar: [
       { text: "Home", link: "/" },
-      { text: "Categories", link: "/categories/" },
       { text: "Management by Projects", link:"/docs/MBP/"},
     ],
 
