@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-a1ae331a","path":"/blog/FN/","title":"灵感笔记","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"编号","slug":"编号","link":"#编号","children":[]},{"level":2,"title":"其他说明","slug":"其他说明","link":"#其他说明","children":[]}],"git":{},"filePathRelative":"blog/FN/README.md"}');export{e as data};

@@ -10,19 +10,15 @@ export default defineUserConfig({
     docsRepo: "https://github.com/microseyuyu/microseyuyu-wiki",
     docsBranch: "main",
     docsDir: "example",
-<<<<<<< HEAD
     lastUpdatedText: "Last Updated",
-=======
-    lastUpdatedText: "last update",
      // 自动设置分类
      autoSetBlogCategories: true,
      // 自动将分类和标签添加至头部导航条
      autoAddCategoryToNavbar: {
        location: 1, // 默认 0
-       categoryText: '分类', // 默认 categories
-       tagText: '标签' // 默认 tags
+       categoryText: 'Categories', // 默认 categories
+       tagText: 'Tags' // 默认 tags
      },
->>>>>>> 42ffb901c9a1373fbe771aec0d7f956b6a39d7f9
     plugins:[
       'backToTopPlugin',
       'activeHeaderLinksPlugin',
@@ -39,49 +35,49 @@ export default defineUserConfig({
           "Project_Scope_Statement"],
         },
       ],
-      "/docs/TP/":[
+      "/blogs/TP/":[
         {
           text: "Test Paper",
           children: ["README","T-Search","TP00001"],
           collapsible: true,
         },
       ],
-      "/docs/TR/": [
+      "/blogs/TR/": [
         {
           text: "Test Report",
           children: ["TR1"],
           collapsible: true,
         },
       ],
-      "/docs/FL/": [
+      "/blogs/FL/": [
         {
           text: "Fleet notes",
           children:[""],
           collapsible: true,
         },
       ],
-      "/docs/PN/":[
+      "/blogs/PN/":[
         {
           text: "Permanent notes",
           children:[""],
           collapsible: true,
         }
       ],
-      "/docs/GKQ":[
+      "/blogs/GKQ":[
         {
           text: "Gaokao question",
           children: [""],
           collapsible: true,
         }
       ],
-      "/docs/GKR":[
+      "/blogs/GKR":[
         {
           text:"Gaokao report",
           children: [""],
           collapsible: true,
         }
       ],
-      "/docs/LN/": [
+      "/blogs/LN/": [
         {
           text: " Literature notes",
           children: ["LN1","LN2"],
